@@ -20,6 +20,9 @@
 		CD10E28F224CD060001EC783 /* personen.json in Resources */ = {isa = PBXBuildFile; fileRef = CD10E28E224CD060001EC783 /* personen.json */; };
 		CD10E291224CD212001EC783 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD10E290224CD212001EC783 /* TableViewController.swift */; };
 		CD10E293224CD29D001EC783 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD10E292224CD29D001EC783 /* Person.swift */; };
+		CD10E295224CDBCB001EC783 /* TableViewCell_Stoff.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD10E294224CDBCB001EC783 /* TableViewCell_Stoff.swift */; };
+		CD10E297224CFA30001EC783 /* Sorte.json in Resources */ = {isa = PBXBuildFile; fileRef = CD10E296224CFA30001EC783 /* Sorte.json */; };
+		CD10E299224CFA76001EC783 /* Sorte.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD10E298224CFA76001EC783 /* Sorte.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		CD10E28E224CD060001EC783 /* personen.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = personen.json; sourceTree = "<group>"; };
 		CD10E290224CD212001EC783 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		CD10E292224CD29D001EC783 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		CD10E294224CDBCB001EC783 /* TableViewCell_Stoff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell_Stoff.swift; sourceTree = "<group>"; };
+		CD10E296224CFA30001EC783 /* Sorte.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = Sorte.json; sourceTree = "<group>"; };
+		CD10E298224CFA76001EC783 /* Sorte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorte.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,9 @@
 				CD10E28E224CD060001EC783 /* personen.json */,
 				CD10E290224CD212001EC783 /* TableViewController.swift */,
 				CD10E292224CD29D001EC783 /* Person.swift */,
+				CD10E294224CDBCB001EC783 /* TableViewCell_Stoff.swift */,
+				CD10E296224CFA30001EC783 /* Sorte.json */,
+				CD10E298224CFA76001EC783 /* Sorte.swift */,
 			);
 			path = AbfallABC;
 			sourceTree = "<group>";
@@ -247,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD10E297224CFA30001EC783 /* Sorte.json in Resources */,
 				CD10E289224CC865001EC783 /* stoff.json in Resources */,
 				CD10E28F224CD060001EC783 /* personen.json in Resources */,
 				CD10E265224CC800001EC783 /* LaunchScreen.storyboard in Resources */,
@@ -279,8 +289,10 @@
 				CD10E293224CD29D001EC783 /* Person.swift in Sources */,
 				CD10E25D224CC7FD001EC783 /* ViewController.swift in Sources */,
 				CD10E28B224CC8F3001EC783 /* Stoff.swift in Sources */,
+				CD10E299224CFA76001EC783 /* Sorte.swift in Sources */,
 				CD10E28D224CCA8D001EC783 /* Reader.swift in Sources */,
 				CD10E291224CD212001EC783 /* TableViewController.swift in Sources */,
+				CD10E295224CDBCB001EC783 /* TableViewCell_Stoff.swift in Sources */,
 				CD10E25B224CC7FD001EC783 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

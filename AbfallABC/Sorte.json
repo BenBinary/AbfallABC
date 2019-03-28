@@ -1,0 +1,12 @@
+
+{
+"sorten": [
+{ "Name": "Abbzeizer", "avv":"001", "Kategorie":"Schadstoffmobil" },
+{ "Name": "Baseballschläger", "avv":"002", "Kategorie":"Rund" },
+{ "Name": "CD", "avv":"003", "Kategorie":"Rund"  },
+{ "Name": "Dachziegel", "avv":"004", "Kategorie":"Rund" },
+{ "Name": "Eier", "avv":"005", "Kategorie":"Rund"  },
+{ "Name": "Feuerlöscher", "avv":"006", "Kategorie":"Rund"  },
+{ "Name": "Grünschnitt", "avv":"006", "Kategorie":"Rund"  },
+]
+}

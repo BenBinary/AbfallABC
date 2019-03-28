@@ -1,5 +1,5 @@
 //
-//  Stoff.swift
+//  Sorte.swift
 //  AbfallABC
 //
 //  Created by Benedikt Kurz on 28.03.19.
@@ -8,14 +8,14 @@
 
 import Foundation
 
-struct Stoffe: Decodable {
-    var stoffe: [Stoff]
+
+struct Sorten : Decodable {
+    var sorten: [Sorte]
 }
 
-struct Stoff: Codable {
+struct Sorte : Codable {
     
-    let name: String
-    let avv: String
-    
+    var Name: String
+    var avv: String
     
 }
